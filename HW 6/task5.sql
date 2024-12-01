@@ -31,6 +31,7 @@ FROM restBill b
 GROUP BY b.cust_name
 HAVING AVG(b.bill_total) > 400;
 
+
 --6
 SELECT s.first_name, s.surname, b.bill_date, COUNT(b.bill_no) AS num_bills
 FROM restBill b
