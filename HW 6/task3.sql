@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 --1
 SELECT DISTINCT s.first_name, s.surname
 FROM restBill b
@@ -41,3 +42,6 @@ JOIN restStaff s ON r.headwaiter = s.staff_no OR s.staff_no IN (
     ) AND bill_date = 160312
 )
 WHERE r.room_name = 'Blue' AND r.room_date = 160312;
+=======
+
+>>>>>>> 1599243cf004cd5972fe583070c77b82c1f310c9
